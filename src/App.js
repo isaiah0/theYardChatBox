@@ -10,14 +10,13 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
 
 firebase.initializeApp({
-  apiKey: "AIzaSyC4JJFmNMhI756dW_IEJTSCE8b0BEgiCLs",
-    authDomain: "theyard-2ebc0.firebaseapp.com",
-    databaseURL: "https://theyard-2ebc0-default-rtdb.firebaseio.com",
-    projectId: "theyard-2ebc0",
-    storageBucket: "theyard-2ebc0.appspot.com",
-    messagingSenderId: "560123406851",
-    appId: "1:560123406851:web:7d51cb58c6aadd3db3fc36",
-    measurementId: "G-12JY09520H"
+   apiKey: "AIzaSyDKA2UnJoSeQNTqToIEnY05d20vP32EeQI",
+    authDomain: "the-yard-e234e.firebaseapp.com",
+    projectId: "the-yard-e234e",
+    storageBucket: "the-yard-e234e.appspot.com",
+    messagingSenderId: "46314008800",
+    appId: "1:46314008800:web:b5a01aedaf85dc96552085",
+    measurementId: "G-Y8CSVQEWCJ"
 })
 
 const auth = firebase.auth();
