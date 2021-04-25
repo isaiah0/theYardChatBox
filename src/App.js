@@ -21,6 +21,7 @@ firebase.initializeApp({
 
 const auth = firebase.auth();
 const firestore = firebase.firestore();
+eslint-disable-next-line;
 const analytics = firebase.analytics();
 
 
